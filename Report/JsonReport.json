@@ -1,0 +1,131 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 637300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To launch the edge browser and maximize window",
+            "match": {
+              "location": "HooksClass.to_launch_the_edge_browser_and_maximize_window()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5736254900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "challenge5.launch()"
+            }
+          }
+        ],
+        "line": 8,
+        "name": "To validate the login page",
+        "description": "",
+        "id": "to-validate-the-fb-application;to-validate-the-login-page",
+        "after": [
+          {
+            "result": {
+              "duration": 681903200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "challenge5.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5766353900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "The url is launch",
+            "match": {
+              "location": "fbLogin.the_url_is_launch()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 625671500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To pass email in email field",
+            "match": {
+              "location": "fbLogin.to_pass_email_in_email_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 543539500,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "To pass password in password field",
+            "match": {
+              "location": "fbLogin.to_pass_password_in_password_field()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 296829700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "To click the login button",
+            "match": {
+              "location": "fbLogin.to_click_the_login_button()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Feature2"
+          },
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "To validate the fb application",
+    "description": "",
+    "id": "to-validate-the-fb-application",
+    "keyword": "Feature",
+    "uri": "src/test/resources/sample.feature",
+    "tags": [
+      {
+        "name": "@Feature2",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+
+---------HTML REPORT----------
+
+	"html:report folder name"
+	
+---------JUNIT REPORT---------
+
+	"junit:report folder name\\fileName.xml
+	
+---------JSON REPORT----------
+
+	"json:report folder name\\fileName.json
